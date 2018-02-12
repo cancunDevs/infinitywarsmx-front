@@ -1,4 +1,9 @@
+@import './variables.scss';
+
 .MainApp {
   font-size: 50px;
   text-align: center;
+  font-family: $font-titles;
+  color: $font-primary-color;
+  background-color: $primary-color;
 }
