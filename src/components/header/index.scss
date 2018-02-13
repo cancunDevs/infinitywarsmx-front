@@ -7,14 +7,24 @@
   .navbar {
     background-color: $primary-color;
 
-    .navbar-toggler{
+    .navbar-brand {
       color: $font-inverse-color;
+    }
+    
+    .navbar-toggler{
+      background-color: $primary-color-lighter;
+      .material-icons {
+        color: $font-inverse-color;
+      }
     }
 
     ul {
-      list-style-type: none;
-
       li {
+        &:hover {
+          background-color: $primary-color-lighter;
+          border-radius: 5px;
+        }
+
         a {
           text-decoration: none;
           color: $font-inverse-color;
