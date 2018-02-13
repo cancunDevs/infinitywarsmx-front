@@ -35,6 +35,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   devServer: {
+    historyApiFallback: true,
     contentBase: './dist',
     port: 3000,
     open: true

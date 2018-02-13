@@ -6,6 +6,7 @@ import Announcements from './announcements';
 import Tournaments from './tournaments';
 import Penalties from './penalties';
 import Leaders from './leaders';
+import NotFound from './notFound';
 
 /* eslint-disable arrow-body-style */
 const Main = () => (
@@ -17,6 +18,7 @@ const Main = () => (
       <Route path='/penalties' component={Penalties} />
       <Route path='/tournaments' component={Tournaments} />
       <Route path='/announcements' component={Announcements} />
+      <Route component={NotFound} />
     </Switch>
   </main>
 );
