@@ -3,7 +3,11 @@
 .MainApp {
   font-size: 14px;
   text-align: center;
-  font-family: $font-titles;
+  // font-family: $font-titles;
   color: $font-primary-color;
   // background-color: $primary-color;
+}
+
+.font-clash {
+  font-family: $font-titles;
 }
