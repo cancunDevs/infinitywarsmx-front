@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
+import './index.scss';
+
 class Home extends Component {
   renderList() {
     return this.props.clan.members.map((member) => {
