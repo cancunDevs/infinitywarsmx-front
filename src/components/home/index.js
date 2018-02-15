@@ -9,9 +9,31 @@ class Home extends Component {
         <li key={member.tag} className='list-group-item'>
           <div className='row font-clash'>
             <div className='col-sm-2'>{member.rank}</div>
-            <div className='col-sm-6'>{member.name} - {member.role}</div>
-            <div className='col-sm-2'>Donado: {member.donations}</div>
-            <div className='col-sm-2'>{member.trophies}</div>
+            <div className='col-sm-6'>
+              <div className='row'>
+                <div className='col-sm-12 text-center'>{member.name}</div>
+              </div>
+              <div className='row'>
+                <div className='col-sm-12 text-center'><small>{member.role}</small></div>
+              </div>
+            </div>
+            <div className='col-sm-2'>
+              <div className='row'>
+                <div className='col-sm-12 text-center'>Donado:</div>
+              </div>
+              <div className='row'>
+                <div className='col-sm-12 text-center'>{member.donations}</div>
+              </div>
+            </div>
+            <div className='col-sm-2'>
+              {`${member.trophies} `}
+              <img
+                src='/assets/img/Trophy.png'
+                alt={this.props.clan.badge.name}
+                width={30}
+                height={30}
+              />
+            </div>
           </div>
         </li>
       );
