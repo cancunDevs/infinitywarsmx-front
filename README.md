@@ -1,33 +1,18 @@
-# react-sass-airbnb
+# InfinityWarsMX Web Project
+**InfinityWarsMX** is a web project based on clash royale game from supercell with information about a clan within the game with the same name, this project was started as an initiative to learn web development with [React.js](https://reactjs.org/) framework using a boilerplate with some initial configuration that you can find [here](https://github.com/yoniihdc/react-sass-airbnb) for further projects.
 
-React-SASS-AirBnB is a project that provides you a boilerplate tool for React following the [Airbnb's Javascript (ES6) Style Guide](https://github.com/airbnb/javascript), and including some features that allows you to use SASS as your style tool in the app.
-
-# Features
-* Simple `/dist/index.html` loading `bundle.js`.
-* Starter `/src/index.js` for React.
-* Starter `/src/_global.scss` for style your app.
-* All code following Airbnb's Javascript (ES6) style guide.
-* Webpack dev server with automatic reloading. Just need to run `$ npm start`.
-* Deployment build with `$ npm run build -p`
-* Pre-commit script to prevent commit files that could break your app in production
-
-# Components
-* [Babel](https://babeljs.io/)
-* [ESlint](https://eslint.org/)
-* [React](https://reactjs.org/)
-* [Webpack](https://webpack.js.org/)
-* [SASS](http://sass-lang.com/)
+This content is not affiliated with, endorsed, sponsored, or specifically approved by Supercell and Supercell is not responsible for it. For more information see [Supercell’s Fan Content Policy](http://supercell.com/en/fan-content-policy/).
 
 # Getting start
 Just run the following commands in your terminal to start coding
 ```bash
-$ git clone https://github.com/yoniihdc/react-sass-airbnb
-$ cd react-sass-airbnb
+$ git clone https://github.com/cancunDevs/infinitywarsmx-front
+$ cd infinitywarsmx-front
 $ npm install
 $ npm start
 ```
 
-The last command automatically opens your browser and you can see your first react app running. In case you don't, you can manually go to http://localhost:3000.
+The last command automatically opens your browser and you can see the app running. In case you don't, you can manually go to http://localhost:3000.
 
 # Deployment
 
@@ -39,4 +24,4 @@ Then just copy all files inside `/dist` folder and put all of them in your serve
 
 # Contributing
 
-This project is an initiative to make easier the way you create a react app, feel free to propose new things and changes that help us with this task, you can read our [CONTRIBUTE.md](CONTRIBUTE.md) for more information.
+You can read our [CONTRIBUTE.md](CONTRIBUTE.md) for more information.
