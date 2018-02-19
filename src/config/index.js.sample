@@ -1,0 +1,3 @@
+export const API_URL = 'http://api.cr-api.com';
+export const API_KEY = '';
+export const CLAN_TAG = '228PYJ08';
