@@ -1,5 +1,5 @@
 // import clanInformation from '../data/clanInformation';
-import { FETCH_CLAN } from '../actions/index';
+import { FETCH_CLAN } from '../actions/types';
 
 const INITIAL_STATE = {
   clan: {},

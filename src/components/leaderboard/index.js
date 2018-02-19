@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import _ from 'lodash';
 
-import { fetchClanInformation } from '../../actions';
+import fetchClanInformation from '../../actions';
 
 import './index.scss';
 
