@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-/* eslint-disable arrow-body-style */
-const NotFound = () => (
-  <div>
-    NOT FOUND
-  </div>
-);
-/* eslint-enable arrow-body-style */
+// import './index.scss';
 
-export default NotFound;
+export default class NotFound extends Component {
+  render() {
+    return (
+      <div className='container'>
+        <h1>Welcome to NotFound Page</h1>
+      </div>
+    );
+  }
+}

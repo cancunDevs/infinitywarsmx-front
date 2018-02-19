@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-/* eslint-disable arrow-body-style */
-const Rules = () => (
-  <div>
-    <h1>Welcome to Rules Page!</h1>
-  </div>
-);
-/* eslint-enable arrow-body-style */
+// import './index.scss';
 
-export default Rules;
+export default class Rules extends Component {
+  render() {
+    return (
+      <div className='container'>
+        <h1>Welcome to Rules Page</h1>
+      </div>
+    );
+  }
+}

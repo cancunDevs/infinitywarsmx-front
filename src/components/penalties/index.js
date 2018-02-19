@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-/* eslint-disable arrow-body-style */
-const Penalties = () => (
-  <div>
-    <h1>Welcome to Penalties Page!</h1>
-  </div>
-);
-/* eslint-enable arrow-body-style */
+// import './index.scss';
 
-export default Penalties;
+export default class Penalties extends Component {
+  render() {
+    return (
+      <div className='container'>
+        <h1>Welcome to Penalties Page</h1>
+      </div>
+    );
+  }
+}
