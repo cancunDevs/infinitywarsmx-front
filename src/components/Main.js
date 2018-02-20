@@ -8,13 +8,15 @@ import Penalties from './penalties';
 import Leaders from './leaders';
 import Leaderboard from './leaderboard';
 import NotFound from './notFound';
+import MemberDetails from './leaderboard/memberDetails';
 
 /* eslint-disable arrow-body-style */
 const Main = () => (
   <main>
     <Switch>
       <Route exact path='/' component={Home} />
-      <Route path='/members' component={Leaderboard} />
+      <Route exact path='/members/:id' component={MemberDetails} />
+      <Route exact path='/members' component={Leaderboard} />
       <Route path='/rules' component={Rules} />
       <Route path='/leaders' component={Leaders} />
       <Route path='/penalties' component={Penalties} />

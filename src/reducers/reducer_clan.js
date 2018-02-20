@@ -1,15 +1,11 @@
 // import clanInformation from '../data/clanInformation';
 import { FETCH_CLAN } from '../actions/types';
 
-const INITIAL_STATE = {
-  clan: {},
-};
-
-export default function (state = INITIAL_STATE, action) {
+export default function (state = { clan: {} }, action) {
   switch (action.type) {
     case FETCH_CLAN:
       return {
-        data: action.payload.data,
+        clan: action.payload.data,
       };
     default:
       return state;
