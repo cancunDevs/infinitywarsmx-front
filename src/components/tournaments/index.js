@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-/* eslint-disable arrow-body-style */
-const Tournaments = () => (
-  <div>
-    <h1>Welcome to Tournaments Page!</h1>
-  </div>
-);
-/* eslint-enable arrow-body-style */
+// import './index.scss';
 
-export default Tournaments;
+export default class Tournaments extends Component {
+  render() {
+    return (
+      <div className='container'>
+        <h1>Welcome to Tournaments Page</h1>
+      </div>
+    );
+  }
+}

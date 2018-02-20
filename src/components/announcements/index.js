@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-/* eslint-disable arrow-body-style */
-const Announcements = () => (
-  <div>
-    <h1>Welcome to Announcements Page!</h1>
-  </div>
-);
-/* eslint-enable arrow-body-style */
+// import './index.scss';
 
-export default Announcements;
+export default class Announcements extends Component {
+  render() {
+    return (
+      <div className='container'>
+        <h1>Welcome to Announcements Page</h1>
+      </div>
+    );
+  }
+}
